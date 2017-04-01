@@ -52,7 +52,8 @@
   * app的初始化  
 
 * pjax.py:  
-  * 提供pjax函数供路由使用
+  * 提供pjax函数供路由使用  
+  
        
 ##### APP配置：config.py  
        对APP的配置
