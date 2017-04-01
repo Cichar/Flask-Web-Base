@@ -1,0 +1,22 @@
+{% extends "file.html" %}
+
+{% block body -%}
+<!-- 头部导航栏 -->
+<div id="header">
+    {% include "header.html" %}
+</div>
+<!-- /.头部导航栏 -->
+
+<!-- 页面主体内容 -->
+<div id="content">
+    {% include template %}
+</div>
+<!-- /.页面主体内容 -->
+
+<!-- 页脚 -->
+<footer id="footer">
+    {% include "footer.html" %}
+</footer>
+<!-- /.页脚 -->
+
+{%- endblock body %}
